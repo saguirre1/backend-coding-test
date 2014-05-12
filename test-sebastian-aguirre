@@ -1,0 +1,21 @@
+to run it:
+java -jar untitled3.jar
+
+you need a mysql database in
+localhost:3306/test
+user -> root
+pass -> root
+
+--------------------------------
+
+for the part of showing the vat you would need to take this table in default.html
+
+<tr ng-repeat="expense in expenses">
+<td>{{expense.date | date:'dd MMM yyyy'}}</td>
+<td>{{expense.amount | currency:"&pound;"}}</td>
+<td>{{expense.reason}}</td>
+</tr>
+
+and add the "vat" property of ExpenseBean.java
+
+<td>{{expense.vat}}</td>
