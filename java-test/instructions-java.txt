@@ -1,0 +1,9 @@
+to run:
+you can use the jar in "java-test -> out -> artifacts -> backend-coding-test.jar".
+
+simply run in a terminal window "java -jar backend-coding-test.jar"
+
+if you want to re-generate the jar you can do so.
+
+I built the project using IDEA so just import backend-coding-test to IDEA and then go to "build -> build artifacts"
+and it will build the jar again.
